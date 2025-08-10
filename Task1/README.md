@@ -12,6 +12,8 @@
 i=$(pwd)
 wc -lwm $i/$1
 
+```
+
 - i=$(pwd): Получает путь к текущей рабочей директории.
 - wc -lwm $i/$1: Выполняет подсчет для файла $1 (аргумент скрипта) в текущей директории.
 
@@ -33,6 +35,7 @@ Hello, world!
 This is a test.
 
 Вывод:
+```bash
 ./script.sh example.txt
        2      5     28 /path/to/current/dir/example.txt
 
